@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pinterest Home, Your Best Site To Inspire">
     <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="style.css" as="style" />
     <title>Pinterest</title>
 </head>
 <body>
@@ -24,35 +26,48 @@
                 <button type="button">Registrarse</button>
             </div>
         </nav>
+        <img src="https://practica-flex.vercel.app/assets/menu.svg" alt="Toggle Menu" class="burguer"/>
     </header>
     <main>
         <section id="content">
             <div class="description">
                 <article>
                     <h1>Guarda las ideas que te gusten</h1>
-                    <p>Colecciona tus favoritos para <br> poder verlos más tarde.</p>
+                    <p>Colecciona tus favoritos para poder verlos más tarde.</p>
                     <button>Explorar</button>
                 </article>
             </div>
             <div class="images_content">
                 <div class="images">
-                    <img src="" alt="Salón Pinterest">
-                    <img src="" alt="Dormitorio Pinterest">
-                    <img src="" alt="Terraza Pinterest">
-                    <img src="" alt="Taza Pinterest">
-                    <img src="" alt="Baño Pinterest">
+                    <img class="first" src="./assets/home.jpg" alt="Salón Pinterest">
+                    <img class="second" src="./assets/cama.jpg" alt="Dormitorio Pinterest">
+                    <img class="third" src="./assets/balcon.jpg" alt="Terraza Pinterest">
+                    <img class="fourth" src="./assets/taza.jpg" alt="Taza Pinterest">
+                    <img class="fifth" src="./assets/baño.jpg" alt="Baño Pinterest">
                 </div>
-                <div>
-                    <h2>Helechos en tu futuro hogar que dan buen rollo</h2>
+                <div class="bottom">
+                    <h2>Helechos en tu <br>futuro hogar <br> que dan buen rollo</h2>
                     <div>
-                        <img src="" alt="Cama Pinterest">
-                        <img src="" alt="Sofá Pinterest">
-                        <img src="" alt="Decoración Pinterest">
+                        <img src="./assets/cama2.jpg" alt="Cama Pinterest">
+                        <img src="./assets/sofa.jpg" alt="Sofá Pinterest">
+                        <img src="./assets/lamp.jpg" alt="Lámparas Pinterest">
                     </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer>
+        <a href="#">Términos del servicio</a>
+        <a href="#">Política de Privacidad</a>
+        <a href="#">Ayuda</a>
+        <a href="#">Aplicación para iPhone</a>
+        <a href="#">Aplicación para Android</a>
+        <a href="#">Usuarios</a>
+        <a href="#">Colecciones</a>
+        <a href="#">Compras</a>
+        <a href="#">Hoy</a>
+        <a href="#">Explorar</a>
+    </footer>
     
 </body>
 </html>

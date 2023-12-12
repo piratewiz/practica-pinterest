@@ -206,13 +206,18 @@ footer {
     background-color: var(--terciary-color);
 }
 
-footer > a {
+footer > ul {
+    display: flex;
+    gap: 20px;
+}
+
+footer > ul > li > a {
     color: #000814;
     font-family: 'Libre Baskerville', sans;
     font-size: 16px;
 }
 
-footer > a:hover {
+footer > ul > li > a:hover {
     color: #006d77;
     font-family: 'Libre Baskerville', sans;
     font-size: 16px;
@@ -226,6 +231,10 @@ footer > a:hover {
     .burguer {
         display: block;
         cursor: pointer;
+    }
+
+    #content {
+        gap: 4rem;
     }
 
     #content > .description {
@@ -251,11 +260,13 @@ footer > a:hover {
     }
 
     footer {
-        flex-direction: column;
-        gap: 20px;
         align-items: center;
     }
 
+    footer > ul {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (max-width: 1040px) {
